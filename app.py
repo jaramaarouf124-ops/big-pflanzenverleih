@@ -18,7 +18,7 @@ TOPF_DURCHMESSER = ["24cm", "28cm"]
 menu = st.sidebar.radio("Navigation", ["📄 Übersicht / Dashboard", "👤 Kunden & Events anlegen", "📦 Pflanzen zuteilen", "🚚 Transport & Rückgabe"])
 
 st.sidebar.markdown("---")
-st.sidebar.success("📱 Mobilmodus für Tonja aktiv (Große UI)")
+st.sidebar.success("📱 Mobilmodus")
 
 if menu == "📄 Übersicht / Dashboard":
     st.header("Aktuelle Verleihaufträge")
